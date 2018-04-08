@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/hapi-water.svg)](https://www.npmjs.com/package/hapi-water)
+[![npm](https://img.shields.io/npm/v/fast-water.svg)](https://www.npmjs.com/package/fast-water)
 
 # Fast Water
 A fastify plugin for [waterline](https://github.com/balderdashy/waterline).  This plugin replicates waterline usage in sails by:
