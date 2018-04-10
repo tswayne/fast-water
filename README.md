@@ -10,7 +10,7 @@ A fastify plugin for [waterline](https://github.com/balderdashy/waterline).  Thi
 
 ```
 // Setup
-const hapiWater = require('hapi-water')
+const fastWater = require('fast-water')
 
 const options = {
  adapter: require('sails-mysql'),
