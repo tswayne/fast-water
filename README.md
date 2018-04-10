@@ -8,7 +8,7 @@ A fastify plugin for [waterline](https://github.com/balderdashy/waterline).  Thi
 
 ## Usage
 
-```
+```javascript
 // Setup
 const fastWater = require('fast-water')
 
@@ -43,7 +43,7 @@ const pets = await this.models.pet.find()
 ```
 
 #### Model definition
-```
+```javascript
 // ./model/Pet.js
 module.exports = {
   identity: 'pet',
