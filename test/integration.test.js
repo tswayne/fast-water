@@ -1,6 +1,4 @@
 const { suite, test, beforeEach } = require('mocha')
-const { assert } = require('chai')
-
 const sinon = require('sinon')
 const optsFixture = require('./support/opts')
 const fastWater = require('../lib/fast-water')
@@ -25,7 +23,7 @@ suite('fastWater', function() {
         }
       }
     })
-    
+
     await fastWater(fastify, options, next)
     sinon.assert.calledOnce(fastify.decorate)
   })

@@ -1,6 +1,6 @@
 {
   "name": "fast-water",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Waterline fastifiy plugin",
   "main": "index.js",
   "directories": {
