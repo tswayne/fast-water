@@ -1,13 +1,13 @@
 {
   "name": "fast-water",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Waterline fastifiy plugin",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,11 @@
     "fastify-plugin": "^0.2.2",
     "joi": "^13.1.2",
     "waterline": "^0.13.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sails-mysql": "^1.0.0",
+    "sinon": "^6.0.0"
   }
 }
