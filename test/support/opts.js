@@ -11,4 +11,11 @@ module.exports = {
   },
   decoratorName: 'models',
   modelPath: path.join(__dirname, './models'),
+  modelDefaults: {
+    datastore: 'default',
+    primaryKey: 'id',
+    attributes: {
+      id: { type: 'number', autoMigrations: { autoIncrement: true } },
+    }
+  }
 }
